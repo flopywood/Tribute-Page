@@ -1,0 +1,113 @@
+.hero-navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  height: 100%;
+  min-height: 105px;
+  background-image: url("http://www.theartof.com/assets/images/speaker-headshots/large/Brene_Brown_Web_IB26_v2.png");
+  background-size: cover;
+  box-shadow: inset 0 0 100px #000;
+  background-position: center;
+  overflow: hidden;
+  z-index: 1000;
+  color: white;
+  font-size: 36vw;
+}
+
+.hero-navbar__inner {
+  z-index: 1;
+}
+
+.hero-navbar:before {
+  content: "";
+  background: rgba(#000, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: background 400ms;
+}
+
+.fix {
+  background: rgba(#000, 0.8);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia;
+}
+
+h1 {
+  color: white;
+  font-size: 36vw;
+}
+
+#info {
+  margin-top: 30px;
+  justify-content: center;
+  width: 50em;
+  font-size: 20px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: ##2AB7CA;
+}
+
+.img-responsive {
+  width: 150px;
+  size: 150px;
+  margin: 0 auto;
+}
+
+iframe {
+  width: 450px;
+  height: 300px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+section {
+  padding: 100px;
+  height: 100%;
+}
+
+#quote {
+  background: #222;
+}
+
+blockquote {
+  color: white;
+  font-family: Arial cursive;
+  font-size: 24px;
+  text-align: center;
+  padding: 25px;
+  font-family: Georgia, Times, serif;
+  font-style: italic;
+}
+
+blockquote footer {
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+#tedtalk {
+  background: #222;
+}
+
+a {
+  cursor: pointer;
+}
